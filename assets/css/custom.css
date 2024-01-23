@@ -1,0 +1,134 @@
+/* Images */
+img {
+    max-width: 133px;
+    height: auto;
+}
+
+/* Reset some default styles */
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #222;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+/* Title on the left */
+.nav-title {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Hamburger icon and navigation links */
+.nav-toggle {
+    display: flex;
+    align-items: center;
+}
+
+/* Hamburger icon styles */
+label {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Navigation links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #AA0213;
+    font-weight: regular;
+    font-size: 18px;
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media screen and (min-width: 769px) {
+    label {
+        display: none;
+    }
+
+    /* ... other styles for larger screens */
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Left Column (Información de contacto) */
+.contact-info {
+    width: 100%;
+    /* Occupy full width on smaller screens */
+    margin-bottom: 20px;
+    /* Add some spacing between the columns */
+}
+
+.contact-info img {
+    width: 100%;
+    /* Make the image occupy the full width of the container */
+    height: auto;
+}
+
+/* Right Column (Contenido del README.MD) */
+.content {
+    width: 70%;
+    max-width: 100%;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: extrabold;
+    color: #333; 
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
