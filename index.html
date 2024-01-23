@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://jobastrategist01.github.io/Portfolio/assets/css/custom.css?v=1">
+    <title>Jorge Barros - Portafolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <!-- Title on the left -->
+        <div class="nav-title"><h2>My Portafolio</h2></div>
+
+        <!-- Hamburger icon and navigation links on the right -->
+        <div class="nav-toggle">
+            <label for="menu-toggle">&#9776;</label>
+
+            <!-- Navigation links -->
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Left Column (Información de contacto) -->
+        <div class="contact-info">
+            <h1>Jorge Barros</h1>
+            <img src="/Portfolio/assets/img/Jorge-Barros-Portafolio.png" alt="Jorge Barros Logo">
+            <h3>Analytics Specialist 02</h3>
+            <p>Email: <a href="mailto:jobastrategist@gmail.com" target="_blank">jobastrategist@gmail.com</a></p>
+            <p>LinkedIn:<a href="https://www.linkedin.com/in/jobastrategist" target="_blank"> jobastrategist</a></p>
+        </div>
+
+        <!-- Right Column (Contenido del README.MD) -->
+        <div class="content">
+            <div id="readme-content"></div>
+        </div>
+
+    </div>
+
+    <!-- Link to Showdown from unpkg -->
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+
+    <script>
+        // Function to open the link in a new window
+        function openLinkInNewWindow(url) {
+            window.open(url, '_blank');
+        }
+
+        // Function to load and render the content of README.md
+        function loadReadme() {
+            var readmeContainer = document.getElementById('readme-content');
+
+            // Change 'tuusuario' y 'turepositorio' with your actual data
+            var readmeUrl = 'https://raw.githubusercontent.com/jobastrategist01/Portfolio/main/README.md';
+
+            // Make an HTTP request to get the content of README.md
+            fetch(readmeUrl)
+                .then(response => response.text())
+                .then(data => {
+                    // Convert Markdown content to HTML using Showdown
+                    var converter = new showdown.Converter();
+                    var htmlContent = converter.makeHtml(data);
+
+                    // Insert HTML content into the container
+                    readmeContainer.innerHTML = htmlContent;
+
+                    // Find all links in the content and add an event listener
+                    var links = readmeContainer.querySelectorAll('a');
+                    links.forEach(link => {
+                        link.addEventListener('click', function (event) {
+                            event.preventDefault(); // Prevent the link from opening directly
+                            openLinkInNewWindow(link.href); // Open the link in a new window
+                        });
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading README.md', error);
+                });
+        }
+
+        // Call the function when the page is loaded
+        document.addEventListener('DOMContentLoaded', loadReadme);
+    </script>
+
+</body>
+
+</html>
