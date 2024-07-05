@@ -35,7 +35,7 @@ This project focuses on understanding consumer preferences and behaviors to help
 
 To get a detailed understanding of the analysis and findings, please refer to the full report. You can view the complete report by following this link:
 
-[Full Report:] ([https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/MovieDataBaseAnalysis/](https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/CollectingBehaviourResearch/Dart-Flipcard%20Inc-final%20complete%20report-JorgeBarros_Github.pdf)
+[Full Report:] (https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/CollectingBehaviourResearch/Dart-Flipcard%20Inc-final%20complete%20report-JorgeBarros_Github.pdf)
 
 ## Contact
 
