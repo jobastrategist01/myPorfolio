@@ -1,4 +1,4 @@
-# Welcome to My Capstone Project
+# Welcome to My Movie Database Analysis Project
 
 Thank you for visiting my Capstone Project! This project focuses on analyzing a movie database to recommend profitable genres based on budget.
 
