@@ -23,7 +23,7 @@ In this analysis, I explore various aspects of movie data to uncover trends and 
 
 To get a detailed understanding of the analysis and findings, please refer to the full report. You can view the complete report by following this link:
 
-[Full Report:] ([https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/MovieDataBaseAnalysis/](https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/MovieDataBaseAnalisys/Dart-Flipcard%20Inc-final%20complete%20report-JorgeBarros_Github.pdf)
+[Full Report:] ([https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/MovieDataBaseAnalysis/](https://github.com/jobastrategist01/myPorfolio/blob/main/DataProjects/MovieDataBaseAnalisys/Movies1980-2020.md)
 
 ## Contact
 
