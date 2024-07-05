@@ -9,7 +9,7 @@ In this analysis, I explore various aspects of movie data to uncover trends and 
 - **Data Collection**: Gathering data from reliable sources.
 - **Data Cleaning**: Preparing the data for analysis.
 - **Exploratory Data Analysis**: Identifying patterns and trends.
-- **Modeling**: Creating predictive models to forecast preferences in Intelectual Properties trends.
+- **Modeling**: Creating predictive models to forecast preferences in Movie genres trends.
 - **Recommendations**: Providing actionable insights based on the analysis.
 
 ## Key Highlights
