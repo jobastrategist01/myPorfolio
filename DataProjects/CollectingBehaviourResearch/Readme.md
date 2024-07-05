@@ -1,23 +1,35 @@
-# Welcome to My Capstone Project
+# Welcome to My Capstone Project: Collectible Card Market Analysis
 
-Thank you for visiting my Capstone Project! This project focuses on analyzing a movie database to recommend profitable genres based on budget.
+Thank you for visiting my Capstone Project! This project focuses on The research and analysis to help a Canadian company thought data and all the knowledge gathered during my studies.
 
 ## Project Overview
 
-In this analysis, I explore various aspects of movie data to uncover trends and insights that can help in making data-driven decisions in the film industry. The project involves:
+This project focuses on understanding consumer preferences and behaviors to help a Canadian collectible card company develop new products. Through qualitative research (focus groups) and quantitative research (virtual surveys), the study identifies key trends, emotional triggers, and purchasing motivations. It also develops a predictive model to classify individuals as collectors or non-collectors. The project involves:
 
+- **Research Methodologies**: Applying Qualitative & Quantitative methodologies to understand users and gather data.
 - **Data Collection**: Gathering data from reliable sources.
 - **Data Cleaning**: Preparing the data for analysis.
 - **Exploratory Data Analysis**: Identifying patterns and trends.
-- **Modeling**: Creating predictive models to forecast preferences in Intelectual Properties trends.
+- **Modeling**: Creating predictive models to forecast preferences in Intellectual Properties trends.
 - **Recommendations**: Providing actionable insights based on the analysis.
 
 ## Key Highlights
 
-- **Genre Analysis**: Understanding which movie genres are most profitable.
-- **Budget vs. Revenue**: Analyzing the relationship between movie budgets and their revenues.
-- **Trends Over Time**: Identifying trends in the movie industry over different time periods.
-- **Predictive Modeling**: Using machine learning techniques to predict the success of movies based on various features.
+- **Male vs Female**:
+  Males are twice as likely to exhibit collecting habits compared to females.
+
+- **The "C" Word (Collector)**:
+  Nearly 70% of respondents with collecting habits deny being collectors.
+
+- **Age of IPs**:
+  Despite nostalgia not being a claimed factor, 60-70% of respondents prefer IPs older than 5 years.
+
+- **Emotions**:
+  Emotional factors drive 70% of the support for favorite IPs.
+
+- **Predictions**:
+  Key variables identified to predict collectors with a 59% success rate.
+
 
 ## Access the Full Report
 
